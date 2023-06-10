@@ -5,9 +5,6 @@ import Cart from './pages/Cart';
 import Navbar from "./components/Navbar";
 import Addnew from './pages/Addnew';
 
-
-
-
 function App() {
 
     return <div>

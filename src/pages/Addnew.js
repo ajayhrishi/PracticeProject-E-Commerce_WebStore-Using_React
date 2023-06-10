@@ -3,7 +3,7 @@ import React from 'react'
 export default function Addnew() {
   return (
     <div>
-       this is the Addnew file
+       This part of the file construction is in progress...
     </div>
   )
 }

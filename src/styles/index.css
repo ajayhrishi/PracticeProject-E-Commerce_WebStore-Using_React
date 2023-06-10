@@ -33,6 +33,7 @@ body{background-color: hsl(0, 0%, 100%);}
     }
 
 .Images{width: 250px; height: 250px; border-radius: 25px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.651);}
+.CartImages{width: 150px; height: 150px; border-radius: 25px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.651);}
 .ProductTitle{font-size: large; font-weight: bold;}
 .Button{ }
 
@@ -53,11 +54,80 @@ body{background-color: hsl(0, 0%, 100%);}
     margin: 35px;
     flex-direction: column;
   }
-  
-  /* Apply special styles to every fourth ProductBox (e.g., the fourth, eighth, twelfth, etc.) */
   .ProductBox:nth-child(3n+1) {
   
   }
+
+  .CartList{
+
+  }
+
+  .ProductInCart{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(136, 184, 184);
+    box-shadow: 0 0 20px rgba(73, 134, 134, 0.8);
+    padding: 40px;
+    border-radius: 25px;
+    margin: 35px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .CartItemValue{
+    display: flex;
+    padding-left: 2%;
+    width: 50%;
+    flex-direction: column;
+
+  }
+
+
+  .CartItemTitle{
+    display: flex;
+    padding-left: 10%;
+    font-size: 27px; font-weight: bold;
+    font-family: "Comic Sans MS";
+  }
+
+  .CartButtonBox{
+    display: flex;
+    padding: 25px;
+    padding-left: 10%;
+    
+  }
+  .Button{
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    border-color:rgb(177, 231, 231); 
+    background-color: rgb(177, 231, 231);
+    box-shadow: 5px 5px 10px rgba(177, 231, 231, 0.5);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .CountDisplayInCart{
+    
+    margin: 10px;
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(177, 231, 231);
+    
+    font-size: 20px;
+    font-weight:900;
+    text-align: center;
+    padding: 5px;
+    padding-top: 8px;
+  }
+  
+  
+
+  /* Apply special styles to every fourth ProductBox (e.g., the fourth, eighth, twelfth, etc.) */
+
 /**
 .ShoppingElement{}
 
